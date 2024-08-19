@@ -1,0 +1,27 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+:Mod:
+    config.py.template
+
+:Synopsis:
+
+:Author:
+    servilla
+
+:Created:
+    8/11/24
+"""
+
+
+class Config:
+    HOST = "host"
+
+    # Email configuration
+    RELAY_HOST = "relay_host"
+    RELAY_PASSWORD = "relay_password"
+    RELAY_USER = "relay_user"
+    RELAY_TLS_PORT = 587
+    FROM = "from"
+    FROM_NAME = "Logregator"
