@@ -4,4 +4,7 @@ channels:
   - defaults
 dependencies:
   - python=3.12
+  - daiquiri
+  - pytest
+  - click
 prefix: /home/servilla/miniconda3/envs/logregator
