@@ -41,10 +41,10 @@ CONTEXT_SETTINGS = dict(help_option_names=["-h", "--help"])
 
 @click.command(context_settings=CONTEXT_SETTINGS)
 @click.argument("config", nargs=1, required=True)
-@click.option("-c", "--compress", is_flag=True, default=False, help="Compress using zip.")
+@click.option("-c", "--compress", is_flag=True, default=False, help="Compress using specified application.")
 def main (config: str, compress:bool):
     """
-    Logregator: A log aggregator for system logs
+    Logregator: A log aggregator for system logs.
 
     \b
         CONFIG: JSON configuration file for log agrgregation.
